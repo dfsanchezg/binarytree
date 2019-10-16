@@ -102,7 +102,7 @@ public class BinaryTree extends Tree{
     }
 
     /**
-     * Goes left side of the current node
+     * Puts the new node in the left side of the current node
      *
      * @param newNode		the new node to put in the binary tree
      * @param currentNode	the current node
