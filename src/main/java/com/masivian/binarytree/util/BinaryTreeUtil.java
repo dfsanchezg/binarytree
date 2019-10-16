@@ -48,7 +48,14 @@ public class BinaryTreeUtil {
                 getAncestor(currentNode, firstValue, secondValue) : null;
     }
 
-
+    /**
+     * Gets the ancestor
+     *
+     * @param currentNode The current node
+     * @param firstValue The first value
+     * @param secondValue The second value
+     * @return the node ancestor
+     */
     private static Node getAncestor(Node currentNode, Integer firstValue, Integer secondValue) {
 
         if(isLeftSideTree(currentNode, firstValue, secondValue)) {

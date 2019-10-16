@@ -58,7 +58,7 @@ public class BinaryTreeTest {
     }
 
     /**
-     * Test create binary tree case 2
+     * Test create binary tree case 3
      *
      * Validates the correct binary tree creation with 30,000 nodes
      */

@@ -15,9 +15,7 @@ import java.util.Optional;
 public class BinaryTree extends Tree{
 
     /**
-     *
      * The binary tree constructor
-     *
      */
     public BinaryTree() {
         super();
@@ -46,7 +44,6 @@ public class BinaryTree extends Tree{
     }
 
     /**
-     *
      * Puts a new node in the tree
      *
      * @param root the tree root
@@ -78,7 +75,6 @@ public class BinaryTree extends Tree{
     }
 
     /**
-     *
      * Puts the new node in the right side of the current node
      *
      * @param newNode the new node to put
