@@ -41,7 +41,8 @@ The application has a swagger configuration
     "binaryTree": "28,29,39,44,67,74,76,83,85,87"
 }
 ```
-
+* ancestor : the ancestor between the first value and the second value
+* binary tree : the binary tree in inorden traversal 
 
 ## Authors
 
