@@ -18,7 +18,7 @@ maven clean install
 
 ## Endpoints
 
-The application has a swagger configuration
+The application has a swagger configuration : http://localhost:8080/swagger-ui.html
 
 * /binarytree/ancestor : find the ancestor given a list of nodes and coupe of numbers 
 
