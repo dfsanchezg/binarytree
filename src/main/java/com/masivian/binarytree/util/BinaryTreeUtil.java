@@ -11,7 +11,7 @@ import java.util.List;
  * contains the binary tree utility options
  *
  * @author Diego Sánchez
- * @date 14/11/2019
+ * @date 14/10/2019
  */
 public class BinaryTreeUtil {
 

@@ -9,7 +9,7 @@ import java.util.Optional;
  * Represents a Binary tree
  *
  * @author Diego Sánchez
- * @date 14/11/2019
+ * @date 14/10/2019
  */
 @Data
 public class BinaryTree extends Tree{

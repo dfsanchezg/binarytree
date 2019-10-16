@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
  * Handler the binary tree request
  *
  * @author Diego Sánchez
- * @date 15/11/2019
+ * @date 15/10/2019
  */
 @RestController
 @RequestMapping(path = "/binarytree")
@@ -26,13 +26,13 @@ public class BinaryTreeController {
     public BinaryTreeService binaryTreeService;
 
     /**
-     * Finds the ancestor of the given tree
+     * creates and finds the ancestor of the given tree
      *
      * @param binaryTreeCreateRequest the binaryTreeCreateRequest
      * @return The BinaryTreeCreateResponse
      */
     @PostMapping
-    public ResponseEntity<?> findAncestorBinaryTree(@RequestBody BinaryTreeCreateRequest binaryTreeCreateRequest) {
+    public ResponseEntity<?> createBinaryTree(@RequestBody BinaryTreeCreateRequest binaryTreeCreateRequest) {
 
         try{
             return new ResponseEntity<>(binaryTreeService.findBinaryTreeAncestor(binaryTreeCreateRequest),

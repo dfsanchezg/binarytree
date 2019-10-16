@@ -8,7 +8,7 @@ import java.util.List;
  * The request creation class
  *
  * @author Diego Sánchez
- * @date 15/11/2019
+ * @date 15/10/2019
  */
 @Data
 public class BinaryTreeCreateRequest {

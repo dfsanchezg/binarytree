@@ -10,7 +10,7 @@ import java.util.Optional;
  * This class represents a node
  *
  * @author  Diego Sanchez
- * @date 14/11/2019
+ * @date 14/10/2019
  */
 @Data
 public class Node {

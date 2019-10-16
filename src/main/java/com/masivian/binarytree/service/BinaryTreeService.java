@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
  * The binary tree service
  *
  * @author Diego Sánchez
- * @date 15/11/2019
+ * @date 15/10/2019
  */
 @Service
 public class BinaryTreeService {
